@@ -1,0 +1,132 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.exit-button {
+    display: flex;
+    justify-content: end;
+    margin-top: 13px;
+    margin-right: 13px;
+    margin-bottom: 21px;
+}
+
+.login-selector {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 40px;
+}
+
+.login-button {
+    font-family: Montserrat, serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 16px;
+    text-decoration: none;
+    color: #3D3D3D;
+}
+
+.register-button {
+    font-family: Montserrat, serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 16px;
+    text-decoration: none;
+    color: #46A358;
+}
+
+.info-registration-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Montserrat, serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #3D3D3D;
+    margin-bottom: 14px;
+    margin-right: 40px;
+}
+
+.form-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 41px;
+}
+
+.form-actions form input {
+    width: 300px;
+    height: 40px;
+    font-family: Montserrat, serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #A5A5A5;
+    border: 1px solid #EAEAEA;
+    border-radius: 5px;
+    padding-left: 14px;
+}
+
+.form-button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 36px;
+}
+
+.form-button button {
+    width: 300px;
+    height: 45px;
+    font-family: Montserrat, serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    background-color: #46A358;
+    border: 1px transparent;
+    border-radius: 5px;
+}
+
+.or-divider {
+    display: flex;
+    justify-content: center;
+    font-family: Montserrat, serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    margin-bottom: 27px;
+}
+
+.login-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.login-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 40px;
+    border: 1px solid #EAEAEA;
+    border-radius: 5px;
+    font-family: montserrat, serif;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #727272;
+    text-decoration: none;
+    cursor: pointer;
+    gap: 9px;
+}
+
