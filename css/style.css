@@ -175,11 +175,18 @@
     margin: auto;
 }
 
+.green {
+    color: #46A358;
+}
+
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-top: 30px;
+    padding-bottom: 17px;
+    margin-bottom: 12px;
+    border-bottom: 1px rgba(70, 163, 88, 0.5) solid;
 }
 
 .logo {
@@ -205,7 +212,7 @@
     color: #3D3D3D;
 }
 
-.header-menu li a:first-child {
+.header-menu li:first-child a {
     font-family: Cera Pro Bold, serif;
     text-decoration: none;
     color: #3D3D3D;
@@ -218,19 +225,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 4px;
     border-radius: 6px;
     padding: 8px 17px 7px;
     background: #46A358;
 }
 
+.header-button img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .header-button a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: Cera Pro Medium, serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 100%;
     text-decoration: none;
     color: #FFFFFF;
+    gap: 4px;
 }
 
 .main-welcome-text {
@@ -277,7 +294,8 @@
 }
 
 .main-button {
-    padding: 11px 27px 9px 26px;
+    display:inline-block;
+    padding: 11px 27px;
     background: #46A358;
     border-radius: 6px;
 }
@@ -289,4 +307,8 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
+}
+
+.picture {
+    margin-left: 95px;
 }
