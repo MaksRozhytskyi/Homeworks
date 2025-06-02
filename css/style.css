@@ -290,6 +290,7 @@ body {
     display: flex;
     align-items: center;
     background: linear-gradient(97.77deg, rgba(245, 245, 245, 0.5) -23.46%, rgba(245, 245, 245, 0.5) 107.51%);
+    margin-bottom: 171px;
 }
 
 .main-info-text {
@@ -298,7 +299,7 @@ body {
 }
 
 .main-button {
-    display:inline-block;
+    display: inline-block;
     padding: 11px 27px;
     background: #46A358;
     border-radius: 6px;
@@ -315,4 +316,194 @@ body {
 
 .picture {
     margin-left: 95px;
+}
+
+.goods-and-filter {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 90px;
+}
+
+.filter {
+    background: #FBFBFB;
+    padding-bottom: 377px;
+}
+
+.filter-title {
+    font-family: Cera Pro Bold, serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    color: #3D3D3D;
+    margin: 0;
+    padding-top: 14px;
+    padding-left: 18px;
+    padding-bottom: 7px;
+}
+
+.filter-menu {
+    font-family: Cera Pro Regular, serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 40px;
+    list-style-type: none;
+    text-decoration: none;
+    padding-top: 7px;
+    padding-left: 30px;
+    margin: 0;
+}
+
+.filter-menu a {
+    text-decoration: none;
+    color: #3D3D3D;
+}
+
+.filter-menu li:first-of-type a {
+    font-family: Cera Pro Bold, serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 40px;
+    text-decoration: none;
+    color: #46A358;
+}
+
+
+.sorting {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 31px;
+}
+
+
+.sorting-tab ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    list-style: none;
+    padding: 0;
+    font-family: Cera Pro Regular, serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+}
+
+.sorting-tab a {
+    text-decoration: none;
+    color: #3D3D3D;
+}
+
+.sorting-tab li:first-child a {
+    font-family: Cera Pro Bold, serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 16px;
+    color: #46A358;
+    border-bottom: 2px solid #46A358;
+}
+
+.sorting-by {
+    font-family: Cera Pro Regular, serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.sorting-by p {
+    margin: 0;
+    color: #3D3D3D;
+}
+
+.sorting-by a {
+    margin: 0;
+    text-decoration: none;
+    color: #3D3D3D;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.card-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 258px;
+    height: 300px;
+    background: #FBFBFB;
+    margin-bottom: 12px;
+}
+
+.card-text {
+    font-family: Cera Pro regular, serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #3D3D3D;
+    margin: 0;
+    text-decoration: none;
+}
+
+.card-price {
+    font-family: Cera Pro Bold, serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    color: #46A358;
+    margin: 0;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 37px;
+}
+
+.card-text-block {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 82px;
+}
+
+
+.pagination a {
+    padding: 10px 14px;
+    border-radius: 4px;
+    border: 1px solid #E5E5E5;
+    background: #FFFFFF;
+    font-family: Cera Pro Regular, serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 16px;
+    text-decoration: none;
+    color: #3D3D3D;
+}
+
+
+.pagination a:first-child {
+    padding: 10px 15px;
+    border-radius: 4px;
+    background: #46A358;
+    font-family: Cera Pro Bold, serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.pagination a:last-child {
+    padding: 8px 10px;
 }
