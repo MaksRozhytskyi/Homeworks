@@ -19,7 +19,7 @@
 }
 
 @font-face {
-    font-family: 'Cera Pro Black';
+    font-family: 'Cera Pro Big';
     src: url('../fonts/CeraPro-Black.eot');
     src: url('../fonts/CeraPro-Black.eot?#iefix') format('embedded-opentype'),
     url('../fonts/CeraPro-Black.woff') format('woff'),
@@ -266,7 +266,7 @@ body {
 }
 
 .main-motto-text {
-    font-family: Cera Pro Black, serif;
+    font-family: Cera Pro Big, serif;
     font-weight: 900;
     font-size: 70px;
     line-height: 70px;
@@ -506,4 +506,125 @@ body {
 
 .pagination a:last-child {
     padding: 8px 10px;
+}
+
+.find-more-section {
+    display: flex;
+    gap: 28px;
+    margin-bottom: 138px;
+}
+
+.find-more-block {
+    display: flex;
+    background: #FBFBFB;
+}
+
+.find-more-title {
+    font-family: Cera Pro Big, serif;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #3D3D3D;
+}
+
+.find-more-description {
+    font-family: Cera Pro Regular, serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: right;
+}
+
+.blog-posts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 68px;
+}
+
+.blog-title {
+    font-family: Cera Pro Big, serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 16px;
+    color: #3D3D3D;
+    padding-bottom: 15px;
+    margin: 0;
+}
+
+.blog-description {
+    font-family: Cera Pro Regular, serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #727272;
+    margin: 0;
+    padding-bottom: 35px;
+}
+
+.blog-posts {
+    display: flex;
+}
+
+.blog-post-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 44px;
+}
+
+.blog-card {
+    display: flex;
+    flex-direction: column;
+    width: 265px;
+    background: #FBFBFB;
+}
+
+
+.blog-card-date {
+    font-family: Cera Pro Medium, serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #46A358;
+    margin: 0 15px;
+    padding-top: 9px;
+    padding-bottom: 4px;
+}
+
+.blog-card-title {
+    font-family: Cera Pro Bold, serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #3D3D3D;
+    margin: 0 15px;
+    padding-bottom: 4px;
+}
+
+.blog-card-description {
+    font-family: Cera Pro Regular, serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #727272;
+    margin: 0 15px;
+    padding-bottom: 9px;
+}
+
+.blog-card-button {
+    display: flex;
+    align-items: center;
+    font-family: Cera Pro Medium, serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0 15px;
+}
+
+.blog-card-button a {
+    text-decoration: none;
+    color: #3D3D3D;
 }
