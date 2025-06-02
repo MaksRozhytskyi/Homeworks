@@ -38,6 +38,10 @@
     font-style: normal;
 }
 
+body {
+    margin: 0;
+}
+
 .container-popup {
     display: flex;
     flex-direction: column;
