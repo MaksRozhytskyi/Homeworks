@@ -519,6 +519,14 @@ body {
     background: #FBFBFB;
 }
 
+
+.find-more-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
 .find-more-title {
     font-family: Cera Pro Big, serif;
     font-weight: 900;
@@ -527,6 +535,9 @@ body {
     text-align: right;
     text-transform: uppercase;
     color: #3D3D3D;
+    margin-right: 30px;
+    margin-top: 0;
+    margin-bottom: 9px;
 }
 
 .find-more-description {
@@ -535,6 +546,36 @@ body {
     font-size: 14px;
     line-height: 24px;
     text-align: right;
+    color: #727272;
+    margin-right: 30px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.find-more-button {
+    display: flex;
+    padding: 11px 27px;
+    background: #46A358;
+    border-radius: 6px;
+    gap: 2px;
+    margin-right: 30px;
+    width: fit-content;
+}
+
+.find-more-button a {
+    font-family: Cera Pro Medium, serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0;
+}
+
+.find-more-button a img {
+    display: block;
+    height: 18px;
+    width: 18px;
 }
 
 .blog-posts {
@@ -546,7 +587,7 @@ body {
 }
 
 .blog-title {
-    font-family: Cera Pro Big, serif;
+    font-family: Cera Pro medium, serif;
     font-weight: 700;
     font-size: 30px;
     line-height: 16px;
@@ -584,7 +625,7 @@ body {
 
 
 .blog-card-date {
-    font-family: Cera Pro Medium, serif;
+    font-family: Cera Pro regular, serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -622,6 +663,7 @@ body {
     font-size: 14px;
     line-height: 16px;
     margin: 0 15px;
+    padding-bottom: 13px;
 }
 
 .blog-card-button a {
