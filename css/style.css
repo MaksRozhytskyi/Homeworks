@@ -670,3 +670,7 @@ body {
     text-decoration: none;
     color: #3D3D3D;
 }
+
+.blog-card-button a:hover {
+    color: #46A358;
+}
