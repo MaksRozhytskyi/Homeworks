@@ -445,6 +445,20 @@
     height: 300px;
     background: #FBFBFB;
     margin-bottom: 12px;
+    position: relative;
+}
+
+.card-image-discount {
+    position: absolute;
+    top: 14px;
+    left: 0;
+    font-family: Cera Pro medium, serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    background: #46A358;
+    padding: 7px 9px;
 }
 
 .card-text {
