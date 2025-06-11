@@ -439,6 +439,7 @@
 
 .card-image {
     display: flex;
+    overflow: hidden;
     justify-content: center;
     align-items: center;
     width: 258px;
@@ -471,13 +472,55 @@
     text-decoration: none;
 }
 
-.card-price {
+.card-icons {
+    position: absolute;
+    display: flex;
+    bottom: 15px;
+    gap: 26px;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.card-image:hover .card-icons {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.card:hover .card-icons {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.card-icons a {
+    text-decoration: none;
+}
+
+.card-icons a:hover svg path {
+    fill: #46A358;
+}
+
+.card-price-block {
+    display: flex;
+    gap: 16px;
+}
+
+.card-price-actual {
     font-family: Cera Pro Bold, serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 16px;
     color: #46A358;
     margin: 0;
+}
+
+.card-price-unactual {
+    font-family: Cera Pro Regular, serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 16px;
+    color: #A5A5A5;
+    text-decoration: line-through;
 }
 
 .products {
