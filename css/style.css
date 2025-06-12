@@ -609,6 +609,11 @@
 .pagination a:last-child:hover svg path{
     padding: 8px 10px;
     stroke: white;
+    fill: none;
+}
+
+.pagination a svg path {
+    fill: none;
 }
 
 .find-more-section {
@@ -764,13 +769,15 @@
     line-height: 16px;
     margin: 0 15px;
     padding-bottom: 13px;
-}
-
-.blog-card-button a {
     text-decoration: none;
     color: #3D3D3D;
 }
 
-.blog-card-button a:hover {
+
+.blog-card-button:hover {
     color: #46A358;
+}
+
+.blog-card-button:hover svg path{
+    fill: #46A358;
 }
