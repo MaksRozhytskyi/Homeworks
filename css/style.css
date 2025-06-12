@@ -230,6 +230,16 @@
     border-bottom: 3px solid #46A358;
 }
 
+.header-menu li:first-child a {
+    font-family: Cera Pro Bold, serif;
+    text-decoration: none;
+    color: #3D3D3D;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    border-bottom: 3px solid #46A358;
+}
+
 .header-button {
     display: flex;
     justify-content: center;
@@ -399,6 +409,15 @@
 }
 
 .sorting-tab li:hover a {
+    font-family: Cera Pro Bold, serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 16px;
+    color: #46A358;
+    border-bottom: 2px solid #46A358;
+}
+
+.sorting-tab li:first-child a {
     font-family: Cera Pro Bold, serif;
     font-weight: 700;
     font-size: 15px;
