@@ -390,6 +390,7 @@
     font-weight: 400;
     font-size: 15px;
     line-height: 16px;
+    border: 2px solid transparent;
 }
 
 .sorting-tab a {
@@ -397,7 +398,7 @@
     color: #3D3D3D;
 }
 
-.sorting-tab li:first-child a {
+.sorting-tab li:hover a {
     font-family: Cera Pro Bold, serif;
     font-weight: 700;
     font-size: 15px;
@@ -561,7 +562,18 @@
 
 
 .pagination a:first-child {
-    padding: 10px 15px;
+    padding: 10px 14px;
+    border-radius: 4px;
+    background: #46A358;
+    font-family: Cera Pro Bold, serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.pagination a:hover {
+    padding: 10px 14px;
     border-radius: 4px;
     background: #46A358;
     font-family: Cera Pro Bold, serif;
@@ -573,6 +585,11 @@
 
 .pagination a:last-child {
     padding: 8px 10px;
+}
+
+.pagination a:last-child:hover svg path{
+    padding: 8px 10px;
+    stroke: white;
 }
 
 .find-more-section {
