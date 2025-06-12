@@ -331,6 +331,13 @@
 
 .picture {
     margin-left: 95px;
+    position: relative;
+}
+
+.flower-main-mini {
+    position: absolute;
+    left: 55px;
+    bottom: 20px;
 }
 
 .goods-and-filter {
