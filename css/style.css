@@ -632,6 +632,14 @@
 .find-more-block {
     display: flex;
     background: #FBFBFB;
+    position: relative;
+
+}
+
+.find-more-image {
+    position: absolute;
+    bottom: 10px;
+    height: 292px;
 }
 
 
@@ -640,6 +648,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: end;
+    margin-top: 37px;
+
 }
 
 .find-more-title {
@@ -662,9 +672,8 @@
     line-height: 24px;
     text-align: right;
     color: #727272;
-    margin-right: 30px;
-    margin-top: 0;
-    margin-bottom: 25px;
+    margin: 0 30px 25px 264px;
+    width: 292px;
 }
 
 .find-more-button {
@@ -675,9 +684,11 @@
     gap: 2px;
     margin-right: 30px;
     width: fit-content;
+    margin-bottom: 46px;
 }
 
 .find-more-button a {
+    display: flex;
     font-family: Cera Pro Medium, serif;
     font-weight: 500;
     font-size: 14px;
@@ -687,11 +698,6 @@
     margin: 0;
 }
 
-.find-more-button a img {
-    display: block;
-    height: 18px;
-    width: 18px;
-}
 
 .blog-posts {
     display: flex;
