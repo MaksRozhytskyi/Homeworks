@@ -800,11 +800,27 @@
 
 .plant-care-menu li {
     position: relative;
-    padding: 8px 104px 8px 14px;
+    padding: 0;
 }
 
-.plant-care-menu li:last-child:hover {
+.plant-care-menu li a {
+    display: block;
+    padding: 8px 104px 8px 14px;
+    text-decoration: none;
+    color: #3D3D3D;
+    width: 100%;
+    height: 100%;
+}
+
+.plant-care-menu li:last-child:hover a {
     color: white;
+}
+
+.plant-care-menu > li:hover > a {
+    background: #1A712A;
+    color: #fff;
+    font-family: 'Cera Pro Bold', serif;
+    font-weight: 700;
 }
 
 .priming-menu {
@@ -820,4 +836,11 @@
 
 .plant-care-menu li:hover > .priming-menu {
     display: block;
+}
+
+.priming-menu a {
+    color: #3D3D3D !important;
+    background: transparent !important;
+    font-family: 'Cera Pro Regular', serif;
+    font-weight: 400;
 }
