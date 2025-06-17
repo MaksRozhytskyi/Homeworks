@@ -891,5 +891,5 @@
 }
 
 .plant-care-menu li:hover img {
-    content: url('/images/plant-care-white.svg');
+    content: url('images/plant-care-white.svg');
 }
