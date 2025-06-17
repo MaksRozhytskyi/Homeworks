@@ -820,7 +820,7 @@
 
 .plant-care-menu li a {
     display: block;
-    padding: 8px 104px 8px 14px;
+    padding: 8px 17px 8px 14px;
     text-decoration: none;
     color: #3D3D3D;
     width: 100%;
@@ -838,9 +838,19 @@
     font-weight: 700;
 }
 
+.plant-care-menu li:last-child a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow-icon {
+    margin-left: auto;
+}
+
 .priming-menu {
     position: absolute;
-    left: 199px;
+    left: 186px;
     top: -96px;
     display: none;
     list-style-type: none;
@@ -874,4 +884,12 @@
     color: #fff !important;
     font-family: 'Cera Pro Bold', serif;
     font-weight: 700;
+}
+
+.plant-care-menu li img {
+    padding-left: 88px;
+}
+
+.plant-care-menu li:hover img {
+    content: url('/images/plant-care-white.svg');
 }
