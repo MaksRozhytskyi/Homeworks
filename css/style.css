@@ -202,15 +202,6 @@
     margin-right: 229px;
 }
 
-.header-menu {
-    display: flex;
-    justify-content: space-between;
-    gap: 50px;
-    list-style: none;
-    padding: 0;
-    margin-right: 367px;
-}
-
 
 .header-button {
     display: flex;
@@ -768,6 +759,12 @@
 }
 
 .header-menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    list-style: none;
+    padding: 0;
+    margin-right: 367px;
     font-family: Cera Pro Regular, serif;
     font-weight: 400;
     font-size: 16px;
@@ -782,6 +779,7 @@
 
 .header-menu li > ul {
     position: absolute;
+    padding-top: 28px;
     display: none;
 }
 
@@ -792,15 +790,14 @@
 .plant-care-menu {
     list-style-type: none;
     position: absolute;
-    top: 10px;
     left: 130px;
     display: none;
-    background: #EDF6EE;
 }
 
 .plant-care-menu li {
     position: relative;
     padding: 0;
+    background: #EDF6EE;
 }
 
 .plant-care-menu li a {
@@ -832,6 +829,7 @@
     background: #EDF6EE;
     white-space: nowrap;
     z-index: 2;
+    padding-top: 0
 }
 
 .plant-care-menu li:hover > .priming-menu {
@@ -843,4 +841,11 @@
     background: transparent !important;
     font-family: 'Cera Pro Regular', serif;
     font-weight: 400;
+}
+
+.priming-menu > li:hover > a {
+    background: #1A712A;
+    color: #fff;
+    font-family: 'Cera Pro Bold', serif;
+    font-weight: 700;
 }
