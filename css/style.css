@@ -831,6 +831,15 @@
     padding-top: 0 !important;
 }
 
+.priming-menu::before {
+    content: '';
+    position: absolute;
+    left: -28px;
+    top: 0;
+    width: 28px;
+    height: 100%;
+}
+
 .plant-care-menu li:hover > .priming-menu {
     display: block;
 }
@@ -842,9 +851,9 @@
     font-weight: 400;
 }
 
-.priming-menu > li:hover > a {
+.priming-menu a:hover {
     background: #1A712A;
-    color: #fff;
+    color: #fff !important;
     font-family: 'Cera Pro Bold', serif;
     font-weight: 700;
 }
