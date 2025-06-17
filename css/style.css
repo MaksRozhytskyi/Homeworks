@@ -779,7 +779,7 @@
 
 .header-menu li > ul {
     position: absolute;
-    padding-top: 28px;
+    padding-top: 40px;
     display: none;
 }
 
@@ -822,14 +822,13 @@
 
 .priming-menu {
     position: absolute;
-    left: 200px;
-    top: 0;
+    left: 199px;
+    top: -96px;
     display: none;
     list-style-type: none;
-    background: #EDF6EE;
     white-space: nowrap;
     z-index: 2;
-    padding-top: 0
+    padding-top: 0 !important;
 }
 
 .plant-care-menu li:hover > .priming-menu {
@@ -838,7 +837,7 @@
 
 .priming-menu a {
     color: #3D3D3D !important;
-    background: transparent !important;
+    background: #EDF6EE;
     font-family: 'Cera Pro Regular', serif;
     font-weight: 400;
 }
