@@ -882,7 +882,7 @@
 .priming-menu a:hover {
     background: #1A712A;
     color: #fff !important;
-    font-family: 'Cera Pro Bold', serif;
+    font-family: Cera Pro Bold, serif;
     font-weight: 700;
 }
 
@@ -893,3 +893,221 @@
 .plant-care-menu li:hover img {
     content: url('../images/plant-care-white.svg');
 }
+
+.tips-and-newsletters {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FBFBFB;
+    gap: 30px;
+}
+
+
+.tip-header {
+    font-family: Cera Pro Bold, serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 16px;
+    color: #3D3D3D;
+}
+
+.tip-content {
+    margin-right: 30px;
+    width: 204px;
+}
+
+.tip-description {
+    font-family: Cera Pro Regular, serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #727272;
+    margin-top: 9px;
+    margin-bottom: 34px;
+}
+
+.tip img {
+    margin-top: 24px;
+    margin-bottom: 15px;
+}
+
+.newsletters-header {
+    font-family: Cera Pro Bold, serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    color: #3D3D3D;
+    margin-bottom: 25px;
+}
+
+.newsletters-description {
+    font-family: Cera Pro Regular, serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    color: #727272;
+    margin-right: 25px;
+    margin-top: 18px;
+}
+
+.tip {
+    display: flex;
+
+}
+
+.tip:first-child {
+    margin-left: 25px;
+}
+
+.newsletters {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.contacts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #EDF6EF 0%, #52C368 100%);;
+}
+
+.footer-cards {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    background: #FBFBFB;
+    border-bottom: 1px solid rgba(70, 163, 88, 0.2);
+}
+
+.contacts-text {
+    font-family: Cera Pro Regular, serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #3D3D3D;
+    text-decoration: none;
+}
+
+.contacts img {
+    padding-left: 23px;
+}
+
+.contacts-address {
+    display: flex;
+    gap: 11px;
+    padding-top: 25px;
+    padding-bottom: 19px;
+}
+
+.contacts-email {
+    display: flex;
+    gap: 10px;
+}
+
+.contacts-phone {
+    display: flex;
+    gap: 8px;
+    padding-right: 22px;
+}
+
+.footer-header {
+    font-family: Cera Pro Bold, serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    margin-bottom: 8px;
+    margin-left: 25px;
+    margin-top: 33px;
+}
+
+.footer-links {
+    list-style-type: none;
+    margin-left: 25px;
+    margin-bottom: 29px;
+}
+
+
+.footer-links a {
+    font-family: Cera Pro Regular, serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #3D3D3D;
+}
+
+.social-media-icons {
+    display: flex;
+    gap: 10px;
+    margin-right: 155px;
+    margin-bottom: 33px;
+}
+
+.social-media-text {
+    font-family: Cera Pro Bold, serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    color: #3D3D3D;
+    margin-bottom: 20px;
+    margin-top: 33px;
+}
+
+.bank-cards-text {
+    font-family: Cera Pro Bold, serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    color: #3D3D3D;
+    margin-bottom: 13px;
+}
+
+.bank-cards-text img {
+    margin-bottom: 49px;
+}
+
+.rights {
+    font-family: Cera Pro Regular, serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #3D3D3D;
+    margin-top: 6px;
+    margin-bottom: 22px;
+    display: flex;
+    justify-content: center;
+}
+
+.newsletters-form {
+    position: relative;
+}
+
+.newsletters-text {
+    color: #ACACAC;
+    font-family: Cera Pro Regular, serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 12px 171px 12px 11px;
+    border-radius: 6px;
+    border-style: none;
+    box-shadow: 0 0 20px 0 #0000000F;
+}
+
+.newsletters-button {
+    font-family: Cera Pro Bold, serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    color: #FFFFFF;
+    background: #46A358;
+    padding: 12px;
+    border-style: none;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+    position: absolute;
+    right: 30px;
+}
+
