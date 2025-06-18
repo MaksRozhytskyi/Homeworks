@@ -882,7 +882,7 @@
 .priming-menu a:hover {
     background: #1A712A;
     color: #fff !important;
-    font-family: 'Cera Pro Bold', serif;
+    font-family: Cera Pro Bold, serif;
     font-weight: 700;
 }
 
@@ -892,4 +892,80 @@
 
 .plant-care-menu li:hover img {
     content: url('../images/plant-care-white.svg');
+}
+
+.tips-and-newsletters {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FBFBFB;
+    gap: 61px;
+}
+
+
+.tip-header {
+    font-family: Cera Pro Bold, serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 16px;
+    color: #3D3D3D;
+    margin-left: 25px;
+}
+
+.tip-description {
+    font-family: Cera Pro Regular, serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #727272;
+    margin-top: 9px;
+    margin-left: 25px;
+    margin-bottom: 34px;
+}
+
+.tip img {
+    margin-left: 25px;
+    margin-top: 24px;
+    margin-bottom: 15px;
+}
+
+.newsletters-header {
+    font-family: Cera Pro Bold, serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    color: #3D3D3D;
+}
+
+.newsletters-description {
+    font-family: Cera Pro Regular, serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 22px;
+    color: #727272;
+    margin-right: 25px;
+}
+
+.tip {
+    display: flex;
+}
+
+.newsletters {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #EDF6EF 0%, #52C368 100%);;
+}
+
+.footer-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FBFBFB;
 }
