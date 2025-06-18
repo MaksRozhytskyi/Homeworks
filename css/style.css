@@ -909,7 +909,6 @@
     font-size: 17px;
     line-height: 16px;
     color: #3D3D3D;
-    margin-left: 25px;
 }
 
 .tip-description {
@@ -919,12 +918,10 @@
     line-height: 22px;
     color: #727272;
     margin-top: 9px;
-    margin-left: 25px;
     margin-bottom: 34px;
 }
 
 .tip img {
-    margin-left: 25px;
     margin-top: 24px;
     margin-bottom: 15px;
 }
@@ -948,6 +945,7 @@
 
 .tip {
     display: flex;
+    margin-left: 25px;
 }
 
 .newsletters {
@@ -965,9 +963,10 @@
 
 .footer-cards {
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: space-between;
     background: #FBFBFB;
+    border-bottom: 1px solid rgba(70, 163, 88, 0.2);
 }
 
 .contacts-text {
@@ -976,13 +975,14 @@
     font-size: 14px;
     line-height: 22px;
     color: #3D3D3D;
+    text-decoration: none;
 }
 
 .contacts img {
     padding-left: 23px;
 }
 
-.contacts-address{
+.contacts-address {
     display: flex;
     gap: 11px;
     padding-top: 25px;
@@ -998,4 +998,72 @@
     display: flex;
     gap: 8px;
     padding-right: 22px;
+}
+
+.footer-header {
+    font-family: Cera Pro Bold, serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    margin-bottom: 8px;
+    margin-left: 25px;
+    margin-top: 33px;
+}
+
+.footer-links {
+    list-style-type: none;
+    margin-left: 25px;
+    margin-bottom: 29px;
+}
+
+
+.footer-links a {
+    font-family: Cera Pro Regular, serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #3D3D3D;
+}
+
+.social-media-icons {
+    display: flex;
+    gap: 10px;
+    margin-right: 155px;
+    margin-bottom: 33px;
+}
+
+.social-media-text {
+    font-family: Cera Pro Bold, serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    color: #3D3D3D;
+    margin-bottom: 20px;
+    margin-top: 33px;
+}
+
+.bank-cards-text {
+    font-family: Cera Pro Bold, serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+    color: #3D3D3D;
+    margin-bottom: 13px;
+}
+
+.bank-cards-text img {
+    margin-bottom: 49px;
+}
+
+.rights {
+    font-family: Cera Pro Regular, serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #3D3D3D;
+    margin-top: 6px;
+    margin-bottom: 22px;
+    display: flex;
+    justify-content: center;
 }
