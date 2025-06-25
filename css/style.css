@@ -1076,8 +1076,7 @@
     color: #3D3D3D;
     margin-top: 6px;
     margin-bottom: 22px;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 .newsletters-form {
