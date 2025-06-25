@@ -522,9 +522,6 @@
                     <p class="tip-description">We are an online plant shop offering a wide range of cheap and trendy
                         plants.</p>
                 </div>
-                <div>
-                    <img src="images/tips-divider.png" alt="">
-                </div>
             </div>
             <div class="tip">
                 <div class="tip-content">
@@ -532,9 +529,6 @@
                     <p class="tip-header">Plant Renovation</p>
                     <p class="tip-description">We are an online plant shop offering a wide range of cheap and trendy
                         plants.</p>
-                </div>
-                <div>
-                    <img src="images/tips-divider.png" alt="">
                 </div>
             </div>
             <div class="tip">
@@ -544,20 +538,20 @@
                     <p class="tip-description">We are an online plant shop offering a wide range of cheap and trendy
                         plants.</p>
                 </div>
-                <div>
-                    <img src="images/tips-divider.png" alt="">
-                </div>
             </div>
 
             <div class="newsletters">
                 <p class="newsletters-header">Would you like to join newsletters?</p>
                 <div class="newsletters-form">
-                    <form>
-                        <input class="newsletters-text" type="email" placeholder="enter your email address..." name="email" required>
+                    <form action="/submit" method="POST">
+                        <label>
+                            <input class="newsletters-text" type="email" placeholder="enter your email address..."
+                                   name="email" required>
+                        </label>
                         <button type="submit" class="newsletters-button">Join</button>
                     </form>
                 </div>
-                <p class="newsletters-description">We usually post offers and challenges in newsletter. We’re  your
+                <p class="newsletters-description">We usually post offers and challenges in newsletter. We’re your
                     online houseplant destination. We offer a wide range of houseplants and accessories shipped directly
                     from our (green) house to yours! </p>
             </div>
@@ -565,7 +559,7 @@
     </section>
     <section>
         <div class="contacts container">
-            <img src="images/logo.svg" alt="Logo">
+            <a href="#"><img src="images/logo.svg" alt="Logo"></a>
             <div class="contacts-address">
                 <img src="images/place-icon.svg" alt="map-point">
                 <a href="#" class="contacts-text">70 West Buckingham Ave. <br>
@@ -584,7 +578,7 @@
     <footer>
         <div class="footer-cards container">
             <div class="footer-cards-my-account">
-                <p class="footer-header">My Account</p>
+                <h3 class="footer-header">My Account</h3>
                 <ul class="footer-links">
                     <li><a href="#">My Account</a></li>
                     <li><a href="#">Our stores</a></li>
@@ -594,7 +588,7 @@
                 </ul>
             </div>
             <div class="footer-cards-help-guide">
-                <p class="footer-header">Help & Guide</p>
+                <h3 class="footer-header">Help & Guide</h3>
                 <ul class="footer-links">
                     <li><a href="#">Help Center</a></li>
                     <li><a href="#">How to Buy</a></li>
@@ -604,7 +598,7 @@
                 </ul>
             </div>
             <div class="footer-cards-categories">
-                <p class="footer-header">Categories</p>
+                <h3 class="footer-header">Categories</h3>
                 <ul class="footer-links">
                     <li><a href="#">House Plants</a></li>
                     <li><a href="#">Potter Plants</a></li>
@@ -615,24 +609,22 @@
             </div>
             <div class="social-and-bank">
                 <div class="social-media">
-                    <p class="social-media-text">Social Media</p>
+                    <h3 class="social-media-text">Social Media</h3>
                     <div class="social-media-icons">
-                        <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
-                        <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
-                        <a href="#"> <img src="images/twitter.png" alt="Twitter"></a>
-                        <a href="#"><img src="images/linkedIn.png" alt="LinkedIn"></a>
-                        <a href="#"> <img src="images/youtube.png" alt="YouTube"></a>
+                        <a href="#" target="_blank" title="Facebook"><img src="images/facebook.png" alt="Facebook"></a>
+                        <a href="#" target="_blank" title="Instagram"><img src="images/instagram.png" alt="Instagram"></a>
+                        <a href="#" target="_blank" title="Twitter"> <img src="images/twitter.png" alt="Twitter"></a>
+                        <a href="#" target="_blank" title="LinkedIn"><img src="images/linkedIn.png" alt="LinkedIn"></a>
+                        <a href="#" target="_blank" title="Youtube"> <img src="images/youtube.png" alt="YouTube"></a>
                     </div>
                 </div>
                 <div class="bank-cards">
-                    <p class="bank-cards-text">We accept</p>
+                    <h3 class="bank-cards-text">We accept</h3>
                     <img src="images/card-vendors.png" alt="Card vendors">
                 </div>
             </div>
         </div>
-        <div class="rights container">
-            <p>© 2021 GreenShop. All Rights Reserved.</p>
-        </div>
+        <p class="rights">© 2021 GreenShop. All Rights Reserved.</p>
     </footer>
 </main>
 </body>
