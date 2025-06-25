@@ -926,6 +926,21 @@
     margin-bottom: 34px;
 }
 
+.tip {
+    position: relative;
+}
+
+.tip:nth-child(1)::after,
+.tip:nth-child(2)::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 10%;
+    height: 75%;
+    width: 1px;
+    background: rgba(70, 163, 88, 0.1);
+}
+
 .tip img {
     margin-top: 24px;
     margin-bottom: 15px;
