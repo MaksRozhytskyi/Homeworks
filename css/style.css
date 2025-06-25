@@ -970,7 +970,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: linear-gradient(90deg, #EDF6EF 0%, #52C368 100%);;
+    background: linear-gradient(90deg, #EDF6EF 0%, #52C368 100%);
+    height: 88px;
 }
 
 .footer-cards {
@@ -997,8 +998,6 @@
 .contacts-address {
     display: flex;
     gap: 11px;
-    padding-top: 25px;
-    padding-bottom: 19px;
 }
 
 .contacts-email {
