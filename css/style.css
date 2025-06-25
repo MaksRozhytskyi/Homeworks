@@ -1080,19 +1080,27 @@
 }
 
 .newsletters-form {
-    position: relative;
+    display: flex;
+    width: 354px;
+    box-shadow: 0 0 20px 0 #0000000F;
+    border-radius: 6px;
 }
 
 .newsletters-text {
+    flex: 1;
     color: #ACACAC;
     font-family: Cera Pro Regular, serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-    padding: 12px 171px 12px 11px;
-    border-radius: 6px;
-    border-style: none;
-    box-shadow: 0 0 20px 0 #0000000F;
+    padding-top: 12px;
+    padding-left: 11px;
+    padding-bottom: 12px;
+    border: none;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    width: 259px;
+    outline: none;
 }
 
 .newsletters-button {
@@ -1102,11 +1110,10 @@
     line-height: 16px;
     color: #FFFFFF;
     background: #46A358;
-    padding: 12px;
+    padding: 12px 25px 13px;
     border-style: none;
     border-bottom-right-radius: 6px;
     border-top-right-radius: 6px;
-    position: absolute;
-    right: 30px;
+    cursor: pointer;
 }
 
