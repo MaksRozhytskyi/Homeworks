@@ -350,6 +350,7 @@
     line-height: 40px;
     text-decoration: none;
     color: #46A358;
+    transition: color 0.4s;
 }
 
 
@@ -385,6 +386,7 @@
     line-height: 16px;
     color: #46A358;
     border-bottom: 2px solid #46A358;
+    transition: border 0.2s;
 }
 
 .sorting-tab li:first-child a {
@@ -783,6 +785,7 @@
     font-size: 16px;
     line-height: 100%;
     color: #3D3D3D;
+    transition: 0.3s;
 }
 
 .header-menu > li:hover > a {
