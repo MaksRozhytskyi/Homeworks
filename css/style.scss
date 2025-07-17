@@ -1,3 +1,8 @@
+$breakpoint-xs: 320px;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-xl: 1024px;
+
 @font-face {
   font-family: 'Cera Pro Regular';
   src: url('../fonts/CeraPro-Regular.eot');
@@ -207,6 +212,10 @@
   padding-bottom: 17px;
   margin-bottom: 12px;
   border-bottom: 1px rgba(70, 163, 88, 0.5) solid;
+  @media (max-width: $breakpoint-xs) {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .logo {
@@ -214,6 +223,9 @@
   height: 35px;
   padding: 0;
   margin-right: 229px;
+  @media (max-width: $breakpoint-xs) {
+    margin: 0 0 20px 0;
+  }
 }
 
 .header-button {
@@ -223,6 +235,10 @@
   border-radius: 6px;
   padding: 8px 17px 7px;
   background: #46A358;
+
+  @media (max-width: $breakpoint-xs) {
+    margin-top: 20px;
+  }
 
   img {
     display: flex;
@@ -253,6 +269,12 @@
   color: #3D3D3D;
   padding-bottom: 7px;
   margin: 0;
+  @media (max-width: $breakpoint-xs) {
+    padding: 0;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 }
 
 .main-motto-text {
@@ -264,6 +286,12 @@
   color: #3D3D3D;
   margin: 0;
   padding-bottom: 5px;
+  @media (max-width: $breakpoint-xs) {
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
 }
 
 .main-description-text {
@@ -274,6 +302,10 @@
   color: #727272;
   margin: 0;
   padding-bottom: 44px;
+  @media (max-width: $breakpoint-xs) {
+    text-align: center;
+    padding-bottom: 20px;
+  }
 }
 
 .main-info {
@@ -281,11 +313,23 @@
   align-items: center;
   background: linear-gradient(97.77deg, rgba(245, 245, 245, 0.5) -23.46%, rgba(245, 245, 245, 0.5) 107.51%);
   margin-bottom: 46px;
+  @media (max-width: $breakpoint-xs) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px 0 10px;
+  }
 }
 
 .main-info-text {
   align-items: center;
   padding-left: 40px;
+  @media (max-width: $breakpoint-xs) {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 .main-button {
@@ -293,6 +337,12 @@
   padding: 11px 27px;
   background: #46A358;
   border-radius: 6px;
+
+  @media (max-width: $breakpoint-xs) {
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+  }
 
   a {
     color: #FFFFFF;
@@ -307,6 +357,9 @@
 .picture {
   margin-left: 95px;
   position: relative;
+  @media (max-width: $breakpoint-xs) {
+    display: none;
+  }
 }
 
 .flower-main-mini {
@@ -319,11 +372,26 @@
   display: flex;
   gap: 40px;
   margin-bottom: 90px;
+  @media (max-width: $breakpoint-xs) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+  }
 }
 
 .filter {
   background: #FBFBFB;
   padding-bottom: 377px;
+  @media (max-width: $breakpoint-xs) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
 }
 
 .filter-title {
@@ -336,6 +404,12 @@
   padding-top: 14px;
   padding-left: 18px;
   padding-bottom: 7px;
+  @media (max-width: $breakpoint-xs) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 0;
+  }
 }
 
 .filter-menu {
@@ -348,6 +422,13 @@
   padding-top: 7px;
   padding-left: 30px;
   margin: 0;
+
+  @media (max-width: $breakpoint-xs) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+  }
 
   a {
     text-decoration: none;
@@ -373,6 +454,12 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 31px;
+  @media (max-width: $breakpoint-xs) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+  }
 }
 
 .sorting-tab {
@@ -387,7 +474,16 @@
     font-size: 15px;
     line-height: 16px;
     border: 2px solid transparent;
+    @media (max-width: $breakpoint-xs) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0 0 30px 0;
+      text-align: center;
+      gap: 20px;
+    }
   }
+
 
   a {
     text-decoration: none;
@@ -420,6 +516,12 @@
   }
 }
 
+.advertisement {
+  @media(max-width: $breakpoint-xs) {
+    display: none;
+  }
+}
+
 .sorting-by {
   font-family: Cera Pro Regular, serif;
   font-weight: 400;
@@ -429,6 +531,12 @@
   justify-content: center;
   align-items: center;
   gap: 8px;
+
+  @media (max-width: $breakpoint-xs) {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
 
   p {
     margin: 0;
@@ -551,6 +659,11 @@
   display: flex;
   flex-wrap: wrap;
   gap: 35px;
+  @media(max-width: $breakpoint-xs) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 .card-text-block {
@@ -565,6 +678,12 @@
   align-items: center;
   gap: 10px;
   padding-bottom: 82px;
+
+  @media(max-width: $breakpoint-xs) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
   a {
     padding: 10px 14px;
@@ -627,18 +746,34 @@
   display: flex;
   gap: 28px;
   margin-bottom: 138px;
+  @media(max-width: $breakpoint-xs) {
+    display: flex;
+    position: static;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 .find-more-block {
   display: flex;
   background: #FBFBFB;
   position: relative;
+  @media(max-width: $breakpoint-xs) {
+    display: flex;
+    position: static;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 .find-more-image {
   position: absolute;
   bottom: 10px;
   height: 292px;
+
+  @media(max-width: $breakpoint-xs) {
+    position: static;
+  }
 }
 
 .find-more-text {
@@ -647,6 +782,9 @@
   justify-content: center;
   align-items: end;
   margin-top: 37px;
+  @media(max-width: $breakpoint-xs) {
+    align-items: center;
+  }
 }
 
 .find-more-title {
@@ -660,6 +798,10 @@
   margin-right: 30px;
   margin-top: 0;
   margin-bottom: 9px;
+  @media(max-width: $breakpoint-xs) {
+    margin: 0;
+    text-align: center;
+  }
 }
 
 .find-more-description {
@@ -671,6 +813,10 @@
   color: #727272;
   margin: 0 30px 25px 264px;
   width: 292px;
+  @media(max-width: $breakpoint-xs) {
+    margin: 0;
+    padding: 20px;
+  }
 }
 
 .find-more-button {
@@ -682,6 +828,10 @@
   margin-right: 30px;
   width: fit-content;
   margin-bottom: 46px;
+
+  @media(max-width: $breakpoint-xs) {
+    margin: 0;
+  }
 
   a {
     display: flex;
@@ -721,12 +871,18 @@
   color: #727272;
   margin: 0;
   padding-bottom: 35px;
+  @media(max-width: $breakpoint-xs) {
+    text-align: center;
+  }
 }
 
 .blog-post-cards {
   display: flex;
   flex-wrap: wrap;
   gap: 44px;
+  @media(max-width: $breakpoint-xs) {
+    justify-content: center;
+  }
 }
 
 .blog-card {
@@ -804,6 +960,17 @@
   font-size: 16px;
   line-height: 100%;
   position: relative;
+
+  @media (max-width: $breakpoint-xs) {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+  }
 
   a {
     text-decoration: none;
@@ -951,6 +1118,10 @@
   justify-content: space-between;
   background: #FBFBFB;
   gap: 30px;
+  @media (max-width: $breakpoint-xs) {
+    justify-content: center;
+    flex-direction: column;
+  }
 }
 
 .tip-header {
@@ -964,6 +1135,12 @@
 .tip-content {
   margin-right: 30px;
   width: 204px;
+  @media (max-width: $breakpoint-xs) {
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+  }
 }
 
 .tip-description {
@@ -980,6 +1157,7 @@
   position: relative;
   display: flex;
 
+
   &:nth-child(1) {
     &::after {
       content: "";
@@ -989,6 +1167,9 @@
       height: 75%;
       width: 1px;
       background: rgba(70, 163, 88, 0.1);
+      @media (max-width: $breakpoint-xs) {
+        display: none;
+      }
     }
   }
 
@@ -1001,6 +1182,9 @@
       height: 75%;
       width: 1px;
       background: rgba(70, 163, 88, 0.1);
+      @media (max-width: $breakpoint-xs) {
+        display: none;
+      }
     }
   }
 
@@ -1011,6 +1195,9 @@
 
   &:first-child {
     margin-left: 25px;
+    @media (max-width: $breakpoint-xs) {
+      margin: 0;
+    }
   }
 }
 
@@ -1021,6 +1208,10 @@
   line-height: 16px;
   color: #3D3D3D;
   margin-bottom: 25px;
+  @media (max-width: $breakpoint-xs) {
+    margin: 0 0 20px 0;
+    text-align: center;
+  }
 }
 
 .newsletters-description {
@@ -1031,6 +1222,10 @@
   color: #727272;
   margin-right: 25px;
   margin-top: 18px;
+  @media (max-width: $breakpoint-xs) {
+    margin: 20px;
+    text-align: center;
+  }
 }
 
 .newsletters {
@@ -1043,11 +1238,24 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: linear-gradient(90deg, #EDF6EF 0%, #52C368 100%);
+  background: linear-gradient(90deg, #95ffab 00%, #52C368 100%);
   height: 88px;
+  @media (max-width: $breakpoint-xs) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 
   img {
     padding-left: 23px;
+    @media (max-width: $breakpoint-xs) {
+      padding-left: 0;
+    }
   }
 }
 
@@ -1057,6 +1265,11 @@
   justify-content: space-between;
   background: #FBFBFB;
   border-bottom: 1px solid rgba(70, 163, 88, 0.2);
+  @media (max-width: $breakpoint-xs) {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
 }
 
 .contacts-text {
@@ -1092,12 +1305,21 @@
   margin-bottom: 8px;
   margin-left: 25px;
   margin-top: 33px;
+  @media (max-width: $breakpoint-xs) {
+    margin: 30px;
+    text-align: center;
+  }
 }
 
 .footer-links {
   list-style-type: none;
   margin-left: 25px;
   margin-bottom: 29px;
+
+  @media (max-width: $breakpoint-xs) {
+    margin: 0;
+    text-align: center;
+  }
 
   a {
     font-family: Cera Pro Regular, serif;
@@ -1114,6 +1336,10 @@
   gap: 10px;
   margin-right: 155px;
   margin-bottom: 33px;
+  @media (max-width: $breakpoint-xs) {
+    margin: 20px 0;
+    display: flex;
+  }
 }
 
 .social-media-text {
@@ -1124,6 +1350,18 @@
   color: #3D3D3D;
   margin-bottom: 20px;
   margin-top: 33px;
+  @media (max-width: $breakpoint-xs) {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.bank-cards {
+  @media (max-width: $breakpoint-xs) {
+    margin: 20px 0;
+  }
 }
 
 .bank-cards-text {
@@ -1133,6 +1371,12 @@
   line-height: 16px;
   color: #3D3D3D;
   margin-bottom: 13px;
+
+  @media (max-width: $breakpoint-xs) {
+    margin: 20px 0;
+    text-align: center;
+  }
+
 
   img {
     margin-bottom: 49px;
@@ -1155,6 +1399,12 @@
   width: 354px;
   box-shadow: 0 0 20px 0 #0000000F;
   border-radius: 6px;
+  @media (max-width: $breakpoint-xs) {
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: none;
+  }
 }
 
 .newsletters-text {
@@ -1172,6 +1422,10 @@
   border-bottom-left-radius: 6px;
   width: 259px;
   outline: none;
+  @media (max-width: $breakpoint-xs) {
+    width: auto;
+    padding: 0;
+  }
 }
 
 .newsletters-button {
@@ -1188,30 +1442,30 @@
   cursor: pointer;
 }
 
-.preloader {
-  background-image: url("../images/preloader-background.jpg");
-  height: 100vh;
-  width: 100%;
-  position: fixed;
-  z-index: 100;
-  opacity: 1;
-  animation: fadeOut 0.1s linear forwards;
-  animation-delay: 1.2s;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.circle1 {
-  animation: bounce 0.6s;
-}
-
-.circle2 {
-  animation: bounce 0.6s;
-  animation-delay: 0.2s;
-}
-
-.circle3 {
-  animation: bounce 0.6s;
-  animation-delay: 0.4s;
-}
+//.preloader {
+//  background-image: url("../images/preloader-background.jpg");
+//  height: 100vh;
+//  width: 100%;
+//  position: fixed;
+//  z-index: 100;
+//  opacity: 1;
+//  animation: fadeOut 0.1s linear forwards;
+//  animation-delay: 1.2s;
+//  display: flex;
+//  justify-content: center;
+//  align-items: center;
+//}
+//
+//.circle1 {
+//  animation: bounce 0.6s;
+//}
+//
+//.circle2 {
+//  animation: bounce 0.6s;
+//  animation-delay: 0.2s;
+//}
+//
+//.circle3 {
+//  animation: bounce 0.6s;
+//  animation-delay: 0.4s;
+//}
