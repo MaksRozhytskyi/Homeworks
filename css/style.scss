@@ -216,6 +216,10 @@ $breakpoint-xl: 1024px;
     display: flex;
     flex-direction: column;
   }
+  @media (max-width: $breakpoint-sm) {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .logo {
@@ -224,6 +228,9 @@ $breakpoint-xl: 1024px;
   padding: 0;
   margin-right: 229px;
   @media (max-width: $breakpoint-xs) {
+    margin: 0 0 20px 0;
+  }
+  @media (max-width: $breakpoint-sm) {
     margin: 0 0 20px 0;
   }
 }
@@ -237,6 +244,9 @@ $breakpoint-xl: 1024px;
   background: #46A358;
 
   @media (max-width: $breakpoint-xs) {
+    margin-top: 20px;
+  }
+  @media (max-width: $breakpoint-sm) {
     margin-top: 20px;
   }
 
@@ -275,6 +285,12 @@ $breakpoint-xl: 1024px;
     margin-top: 20px;
     margin-bottom: 20px;
   }
+  @media (max-width: $breakpoint-sm) {
+    padding: 0;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 }
 
 .main-motto-text {
@@ -287,6 +303,12 @@ $breakpoint-xl: 1024px;
   margin: 0;
   padding-bottom: 5px;
   @media (max-width: $breakpoint-xs) {
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  @media (max-width: $breakpoint-sm) {
     font-size: 40px;
     line-height: 50px;
     text-align: center;
@@ -305,6 +327,12 @@ $breakpoint-xl: 1024px;
   @media (max-width: $breakpoint-xs) {
     text-align: center;
     padding-bottom: 20px;
+  }
+  @media (max-width: $breakpoint-sm) {
+    text-align: center;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
 
@@ -330,6 +358,13 @@ $breakpoint-xl: 1024px;
     flex-direction: column;
     justify-content: center;
   }
+  @media (max-width: $breakpoint-sm) {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .main-button {
@@ -342,6 +377,10 @@ $breakpoint-xl: 1024px;
     display: inline-block;
     justify-content: center;
     text-align: center;
+  }
+
+  @media (max-width: $breakpoint-sm) {
+    margin-bottom: 20px;
   }
 
   a {
@@ -358,6 +397,9 @@ $breakpoint-xl: 1024px;
   margin-left: 95px;
   position: relative;
   @media (max-width: $breakpoint-xs) {
+    display: none;
+  }
+  @media (max-width: $breakpoint-sm) {
     display: none;
   }
 }
@@ -378,12 +420,27 @@ $breakpoint-xl: 1024px;
     justify-content: center;
     padding: 0;
   }
+  @media (max-width: $breakpoint-sm) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+  }
 }
 
 .filter {
   background: #FBFBFB;
   padding-bottom: 377px;
   @media (max-width: $breakpoint-xs) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+  @media (max-width: $breakpoint-sm) {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -410,6 +467,12 @@ $breakpoint-xl: 1024px;
     justify-content: center;
     padding: 20px 0;
   }
+  @media (max-width: $breakpoint-sm) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 0;
+  }
 }
 
 .filter-menu {
@@ -424,6 +487,12 @@ $breakpoint-xl: 1024px;
   margin: 0;
 
   @media (max-width: $breakpoint-xs) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+  }
+  @media (max-width: $breakpoint-sm) {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -460,6 +529,12 @@ $breakpoint-xl: 1024px;
     justify-content: center;
     padding: 0;
   }
+  @media (max-width: $breakpoint-sm) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+  }
 }
 
 .sorting-tab {
@@ -475,6 +550,14 @@ $breakpoint-xl: 1024px;
     line-height: 16px;
     border: 2px solid transparent;
     @media (max-width: $breakpoint-xs) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0 0 30px 0;
+      text-align: center;
+      gap: 20px;
+    }
+    @media (max-width: $breakpoint-sm) {
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -520,6 +603,9 @@ $breakpoint-xl: 1024px;
   @media(max-width: $breakpoint-xs) {
     display: none;
   }
+  @media(max-width: $breakpoint-sm) {
+    display: none;
+  }
 }
 
 .sorting-by {
@@ -533,6 +619,12 @@ $breakpoint-xl: 1024px;
   gap: 8px;
 
   @media (max-width: $breakpoint-xs) {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+
+  @media (max-width: $breakpoint-sm) {
     display: flex;
     justify-content: center;
     padding: 0;
@@ -664,6 +756,11 @@ $breakpoint-xl: 1024px;
     flex-wrap: wrap;
     justify-content: center;
   }
+  @media(max-width: $breakpoint-sm) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 .card-text-block {
@@ -680,6 +777,11 @@ $breakpoint-xl: 1024px;
   padding-bottom: 82px;
 
   @media(max-width: $breakpoint-xs) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  @media(max-width: $breakpoint-sm) {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -752,6 +854,12 @@ $breakpoint-xl: 1024px;
     flex-direction: column;
     justify-content: center;
   }
+  @media(max-width: $breakpoint-sm) {
+    display: flex;
+    position: static;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 .find-more-block {
@@ -759,6 +867,12 @@ $breakpoint-xl: 1024px;
   background: #FBFBFB;
   position: relative;
   @media(max-width: $breakpoint-xs) {
+    display: flex;
+    position: static;
+    flex-direction: column;
+    justify-content: center;
+  }
+  @media(max-width: $breakpoint-sm) {
     display: flex;
     position: static;
     flex-direction: column;
@@ -774,6 +888,11 @@ $breakpoint-xl: 1024px;
   @media(max-width: $breakpoint-xs) {
     position: static;
   }
+  @media(max-width: $breakpoint-sm) {
+    position: static;
+    display: block;
+    margin: 20px auto;
+  }
 }
 
 .find-more-text {
@@ -783,6 +902,9 @@ $breakpoint-xl: 1024px;
   align-items: end;
   margin-top: 37px;
   @media(max-width: $breakpoint-xs) {
+    align-items: center;
+  }
+  @media(max-width: $breakpoint-sm) {
     align-items: center;
   }
 }
@@ -802,6 +924,10 @@ $breakpoint-xl: 1024px;
     margin: 0;
     text-align: center;
   }
+  @media(max-width: $breakpoint-sm) {
+    margin: 0;
+    text-align: center;
+  }
 }
 
 .find-more-description {
@@ -814,6 +940,10 @@ $breakpoint-xl: 1024px;
   margin: 0 30px 25px 264px;
   width: 292px;
   @media(max-width: $breakpoint-xs) {
+    margin: 0;
+    padding: 20px;
+  }
+  @media(max-width: $breakpoint-sm) {
     margin: 0;
     padding: 20px;
   }
@@ -831,6 +961,9 @@ $breakpoint-xl: 1024px;
 
   @media(max-width: $breakpoint-xs) {
     margin: 0;
+  }
+  @media(max-width: $breakpoint-sm) {
+    margin: 0 0 20px 0;
   }
 
   a {
@@ -874,6 +1007,10 @@ $breakpoint-xl: 1024px;
   @media(max-width: $breakpoint-xs) {
     text-align: center;
   }
+  @media(max-width: $breakpoint-sm) {
+    text-align: center;
+    margin: 0 20px;
+  }
 }
 
 .blog-post-cards {
@@ -881,6 +1018,9 @@ $breakpoint-xl: 1024px;
   flex-wrap: wrap;
   gap: 44px;
   @media(max-width: $breakpoint-xs) {
+    justify-content: center;
+  }
+  @media(max-width: $breakpoint-sm) {
     justify-content: center;
   }
 }
@@ -962,6 +1102,17 @@ $breakpoint-xl: 1024px;
   position: relative;
 
   @media (max-width: $breakpoint-xs) {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+  }
+
+  @media (max-width: $breakpoint-sm) {
     position: static;
     display: flex;
     flex-direction: column;
@@ -1122,6 +1273,10 @@ $breakpoint-xl: 1024px;
     justify-content: center;
     flex-direction: column;
   }
+  @media (max-width: $breakpoint-sm) {
+    justify-content: center;
+    flex-direction: column;
+  }
 }
 
 .tip-header {
@@ -1136,6 +1291,12 @@ $breakpoint-xl: 1024px;
   margin-right: 30px;
   width: 204px;
   @media (max-width: $breakpoint-xs) {
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+  }
+  @media (max-width: $breakpoint-sm) {
     justify-content: center;
     flex-direction: column;
     text-align: center;
@@ -1170,6 +1331,9 @@ $breakpoint-xl: 1024px;
       @media (max-width: $breakpoint-xs) {
         display: none;
       }
+      @media (max-width: $breakpoint-sm) {
+        display: none;
+      }
     }
   }
 
@@ -1185,6 +1349,9 @@ $breakpoint-xl: 1024px;
       @media (max-width: $breakpoint-xs) {
         display: none;
       }
+      @media (max-width: $breakpoint-sm) {
+        display: none;
+      }
     }
   }
 
@@ -1196,6 +1363,9 @@ $breakpoint-xl: 1024px;
   &:first-child {
     margin-left: 25px;
     @media (max-width: $breakpoint-xs) {
+      margin: 0;
+    }
+    @media (max-width: $breakpoint-sm) {
       margin: 0;
     }
   }
@@ -1212,6 +1382,10 @@ $breakpoint-xl: 1024px;
     margin: 0 0 20px 0;
     text-align: center;
   }
+  @media (max-width: $breakpoint-sm) {
+    margin: 0 0 20px 0;
+    text-align: center;
+  }
 }
 
 .newsletters-description {
@@ -1223,6 +1397,10 @@ $breakpoint-xl: 1024px;
   margin-right: 25px;
   margin-top: 18px;
   @media (max-width: $breakpoint-xs) {
+    margin: 20px;
+    text-align: center;
+  }
+  @media (max-width: $breakpoint-sm) {
     margin: 20px;
     text-align: center;
   }
@@ -1250,10 +1428,23 @@ $breakpoint-xl: 1024px;
     padding-top: 20px;
     padding-bottom: 20px;
   }
+  @media (max-width: $breakpoint-sm) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 
   img {
     padding-left: 23px;
     @media (max-width: $breakpoint-xs) {
+      padding-left: 0;
+    }
+    @media (max-width: $breakpoint-sm) {
       padding-left: 0;
     }
   }
@@ -1266,6 +1457,11 @@ $breakpoint-xl: 1024px;
   background: #FBFBFB;
   border-bottom: 1px solid rgba(70, 163, 88, 0.2);
   @media (max-width: $breakpoint-xs) {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  @media (max-width: $breakpoint-sm) {
     flex-direction: column;
     align-items: center;
     gap: 30px;
@@ -1309,6 +1505,11 @@ $breakpoint-xl: 1024px;
     margin: 30px;
     text-align: center;
   }
+  @media (max-width: $breakpoint-sm) {
+    margin: 30px;
+    text-align: center;
+    font-size: 24px;
+  }
 }
 
 .footer-links {
@@ -1321,6 +1522,11 @@ $breakpoint-xl: 1024px;
     text-align: center;
   }
 
+  @media (max-width: $breakpoint-sm) {
+    margin: 0;
+    text-align: center;
+  }
+
   a {
     font-family: Cera Pro Regular, serif;
     font-weight: 400;
@@ -1328,6 +1534,9 @@ $breakpoint-xl: 1024px;
     line-height: 30px;
     text-decoration: none;
     color: #3D3D3D;
+    @media (max-width: $breakpoint-sm) {
+      font-size: 18px;
+    }
   }
 }
 
@@ -1337,6 +1546,10 @@ $breakpoint-xl: 1024px;
   margin-right: 155px;
   margin-bottom: 33px;
   @media (max-width: $breakpoint-xs) {
+    margin: 20px 0;
+    display: flex;
+  }
+  @media (max-width: $breakpoint-sm) {
     margin: 20px 0;
     display: flex;
   }
@@ -1356,10 +1569,20 @@ $breakpoint-xl: 1024px;
     flex-direction: column;
     text-align: center;
   }
+
+  @media (max-width: $breakpoint-sm) {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 .bank-cards {
   @media (max-width: $breakpoint-xs) {
+    margin: 20px 0;
+  }
+  @media (max-width: $breakpoint-sm) {
     margin: 20px 0;
   }
 }
@@ -1373,6 +1596,11 @@ $breakpoint-xl: 1024px;
   margin-bottom: 13px;
 
   @media (max-width: $breakpoint-xs) {
+    margin: 20px 0;
+    text-align: center;
+  }
+
+  @media (max-width: $breakpoint-sm) {
     margin: 20px 0;
     text-align: center;
   }
@@ -1400,6 +1628,12 @@ $breakpoint-xl: 1024px;
   box-shadow: 0 0 20px 0 #0000000F;
   border-radius: 6px;
   @media (max-width: $breakpoint-xs) {
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: none;
+  }
+  @media (max-width: $breakpoint-sm) {
     width: auto;
     display: flex;
     justify-content: space-around;
