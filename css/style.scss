@@ -1263,6 +1263,18 @@ $breakpoint-xl: 1024px;
 
       > ul {
         display: block;
+        @media (max-width: $breakpoint-sm) {
+          display: none;
+        }
+        @media (max-width: $breakpoint-xs) {
+          display: none;
+        }
+        @media (max-width: $breakpoint-xl) {
+          display: none;
+        }
+        @media (max-width: $breakpoint-md) {
+          display: none;
+        }
       }
     }
   }
@@ -1294,12 +1306,27 @@ $breakpoint-xl: 1024px;
       color: #3D3D3D;
       width: 100%;
       height: 100%;
+      @media (max-width: $breakpoint-sm) {
+        display: none;
+      }
     }
 
     &:last-child {
       &:hover {
         a {
           color: #FFFFFF;
+          @media (max-width: $breakpoint-sm) {
+            display: none;
+          }
+          @media (max-width: $breakpoint-xs) {
+            display: none;
+          }
+          @media (max-width: $breakpoint-xl) {
+            display: none;
+          }
+          @media (max-width: $breakpoint-md) {
+            display: none;
+          }
         }
       }
 
@@ -1307,12 +1334,36 @@ $breakpoint-xl: 1024px;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        @media (max-width: $breakpoint-sm) {
+          display: none;
+        }
+        @media (max-width: $breakpoint-xs) {
+          display: none;
+        }
+        @media (max-width: $breakpoint-xl) {
+          display: none;
+        }
+        @media (max-width: $breakpoint-md) {
+          display: none;
+        }
       }
     }
 
     &:hover {
       > .priming-menu {
         display: block;
+        @media (max-width: $breakpoint-sm) {
+          display: none;
+        }
+        @media (max-width: $breakpoint-xs) {
+          display: none;
+        }
+        @media (max-width: $breakpoint-xl) {
+          display: none;
+        }
+        @media (max-width: $breakpoint-md) {
+          display: none;
+        }
       }
 
       img {
@@ -1332,6 +1383,18 @@ $breakpoint-xl: 1024px;
         color: #FFFFFF;
         font-family: 'Cera Pro Bold', serif;
         font-weight: 700;
+        @media (max-width: $breakpoint-sm) {
+          display: none;
+        }
+        @media (max-width: $breakpoint-xs) {
+          display: none;
+        }
+        @media (max-width: $breakpoint-xl) {
+          display: none;
+        }
+        @media (max-width: $breakpoint-md) {
+          display: none;
+        }
       }
     }
   }
@@ -1358,6 +1421,9 @@ $breakpoint-xl: 1024px;
     top: 0;
     width: 28px;
     height: 100%;
+    @media (max-width: $breakpoint-sm) {
+      display: none;
+    }
   }
 
   a {
@@ -1371,6 +1437,9 @@ $breakpoint-xl: 1024px;
       color: #FFFFFF !important;
       font-family: Cera Pro Bold, serif;
       font-weight: 700;
+      @media (max-width: $breakpoint-sm) {
+        display: none;
+      }
     }
   }
 }
