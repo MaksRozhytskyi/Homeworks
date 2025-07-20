@@ -209,6 +209,12 @@
     flex-direction: column;
   }
 }
+@media (max-width: 768px) {
+  .header {
+    display: flex;
+    justify-content: center;
+  }
+}
 
 .logo {
   width: 150px;
@@ -224,6 +230,11 @@
 @media (max-width: 576px) {
   .logo {
     margin: 0 0 20px 0;
+  }
+}
+@media (max-width: 768px) {
+  .logo {
+    margin-right: 20px;
   }
 }
 
@@ -419,6 +430,12 @@
     display: none;
   }
 }
+@media (max-width: 768px) {
+  .picture {
+    margin-left: 0;
+    overflow: hidden;
+  }
+}
 
 .flower-main-mini {
   position: absolute;
@@ -519,7 +536,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0;
+    padding: 0 !important;
   }
 }
 @media (max-width: 576px) {
@@ -527,7 +544,15 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0;
+    padding: 0 !important;
+  }
+}
+@media (max-width: 768px) {
+  .filter-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 50px;
   }
 }
 .filter-menu a {
@@ -630,6 +655,11 @@
     display: none;
   }
 }
+@media (max-width: 768px) {
+  .advertisement {
+    display: none;
+  }
+}
 
 .sorting-by {
   font-family: Cera Pro Regular, serif;
@@ -646,6 +676,7 @@
     display: flex;
     justify-content: center;
     padding: 0;
+    margin: 0 !important;
   }
 }
 @media (max-width: 576px) {
@@ -653,6 +684,14 @@
     display: flex;
     justify-content: center;
     padding: 0;
+    margin: 0 !important;
+  }
+}
+@media (max-width: 768px) {
+  .sorting-by {
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
   }
 }
 .sorting-by p {
@@ -797,6 +836,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 0 !important;
   }
 }
 @media (max-width: 576px) {
@@ -804,6 +844,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 0 !important;
+  }
+}
+@media (max-width: 768px) {
+  .pagination {
+    margin-right: 25px;
   }
 }
 .pagination a {
@@ -872,6 +918,14 @@
     justify-content: center;
   }
 }
+@media (max-width: 768px) {
+  .find-more-section {
+    display: flex;
+    position: static;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
 
 .find-more-block {
   display: flex;
@@ -887,6 +941,14 @@
   }
 }
 @media (max-width: 576px) {
+  .find-more-block {
+    display: flex;
+    position: static;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
   .find-more-block {
     display: flex;
     position: static;
@@ -912,6 +974,13 @@
     margin: 20px auto;
   }
 }
+@media (max-width: 768px) {
+  .find-more-image {
+    position: static;
+    display: block;
+    margin: 20px auto;
+  }
+}
 
 .find-more-text {
   display: flex;
@@ -926,6 +995,11 @@
   }
 }
 @media (max-width: 576px) {
+  .find-more-text {
+    align-items: center;
+  }
+}
+@media (max-width: 768px) {
   .find-more-text {
     align-items: center;
   }
@@ -955,6 +1029,11 @@
     text-align: center;
   }
 }
+@media (max-width: 768px) {
+  .find-more-title {
+    text-align: center;
+  }
+}
 
 .find-more-description {
   font-family: Cera Pro Regular, serif;
@@ -973,6 +1052,12 @@
   }
 }
 @media (max-width: 576px) {
+  .find-more-description {
+    margin: 0;
+    padding: 20px;
+  }
+}
+@media (max-width: 768px) {
   .find-more-description {
     margin: 0;
     padding: 20px;
@@ -1060,6 +1145,11 @@
   }
 }
 @media (max-width: 576px) {
+  .blog-post-cards {
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
   .blog-post-cards {
     justify-content: center;
   }
@@ -1159,6 +1249,17 @@
     margin: 0;
     padding: 0;
     gap: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .header-menu {
+    position: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 60px;
+    padding: 0;
+    gap: 30px;
   }
 }
 .header-menu a {
@@ -1288,6 +1389,13 @@
     flex-direction: column;
   }
 }
+@media (max-width: 768px) {
+  .tips-and-newsletters {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+}
 
 .tip-header {
   font-family: Cera Pro Bold, serif;
@@ -1408,6 +1516,12 @@
     text-align: center;
   }
 }
+@media (max-width: 768px) {
+  .newsletters-header {
+    margin: 0 0 20px 0;
+    text-align: center;
+  }
+}
 
 .newsletters-description {
   font-family: Cera Pro Regular, serif;
@@ -1425,6 +1539,12 @@
   }
 }
 @media (max-width: 576px) {
+  .newsletters-description {
+    margin: 20px;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
   .newsletters-description {
     margin: 20px;
     text-align: center;
@@ -1457,6 +1577,18 @@
   }
 }
 @media (max-width: 576px) {
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 768px) {
   .contacts {
     display: flex;
     flex-direction: column;
@@ -1501,6 +1633,12 @@
     flex-direction: column;
     align-items: center;
     gap: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .footer-cards {
+    gap: 0;
+    justify-content: space-between;
   }
 }
 
@@ -1593,12 +1731,19 @@
   .social-media-icons {
     margin: 20px 0;
     display: flex;
+    justify-content: center;
   }
 }
 @media (max-width: 576px) {
   .social-media-icons {
-    margin: 20px 0;
+    margin: 20px 0 !important;
     display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  .social-media-icons {
+    margin: 10px;
   }
 }
 
@@ -1627,6 +1772,20 @@
     text-align: center;
   }
 }
+@media (max-width: 768px) {
+  .social-media-text {
+    margin: 20px 0;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .social-and-bank {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+}
 
 @media (max-width: 320px) {
   .bank-cards {
@@ -1636,6 +1795,11 @@
 @media (max-width: 576px) {
   .bank-cards {
     margin: 20px 0;
+  }
+}
+@media (max-width: 768px) {
+  .bank-cards img {
+    margin: 0 20px;
   }
 }
 
@@ -1656,6 +1820,11 @@
 @media (max-width: 576px) {
   .bank-cards-text {
     margin: 20px 0;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .bank-cards-text {
     text-align: center;
   }
 }
@@ -1689,6 +1858,14 @@
   }
 }
 @media (max-width: 576px) {
+  .newsletters-form {
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: none;
+  }
+}
+@media (max-width: 768px) {
   .newsletters-form {
     width: auto;
     display: flex;
